@@ -1,0 +1,11 @@
+(library
+ (public_name ft_ality)
+ (modules)
+ (instrumentation
+  (backend bisect_ppx)))
+
+(executable
+ (name main)
+ (public_name ft_ality)
+ (modules main)
+ (libraries ft_ality))
